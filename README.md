@@ -13,7 +13,8 @@
 11. Exercise 11: Installing Packages using For Loop.
 12. Exercise 12: File, copy and template modules - Using templates config files to overwrite configurations files of services using the "template" module.
 13. Exercise 13: Create directory using file module
-14. Using the Handler module to restart services intellegently 
+14. Exercise 14: Using the Handler module to restart services intellegently 
+15. Exercise 15: Using Ansible Roles
 
 
 
@@ -155,6 +156,20 @@ https://docs.ansible.com/ansible/2.9/user_guide/playbooks_conditionals.html
 https://docs.ansible.com/ansible/2.9/user_guide/playbooks_loops.html
 
 # File Operations
+
+# Role
+- Initialize a role
+
+Create directory called "roles"
+run "ansible-galaxy init <Role Name>
+
+
+Ansible-galaxy contains a lot of pre-defined roles that can be reused.
+
+https://galaxy.ansible.com/home
+
+Search for your interested role and install
+
 
 
 
