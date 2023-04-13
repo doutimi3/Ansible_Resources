@@ -1,4 +1,4 @@
-# This repository contain resource that can be used to learn Ansible with practical examples:
+This repository contain resource that can be used to learn Ansible with practical examples:
 
 1. Exercise 1: Create a simple inventory file
 2. Exercise 2: Create an Inventory file with server groups
@@ -15,13 +15,6 @@
 13. Exercise 13: Create directory using file module
 14. Exercise 14: Using the Handler module to restart services intellegently 
 15. Exercise 15: Using Ansible Roles
-
-
-
-
-
-
-
 
 
 __Official ansible documentation__
@@ -133,7 +126,6 @@ the setup module and it show as "Gathering Facts"
 ```SHELL
 ansible -m setup <server Name>
 ```
-
 
 __Store Output of a Task__
 
